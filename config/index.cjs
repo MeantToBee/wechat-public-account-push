@@ -290,7 +290,6 @@ const USER_CONFIG = {
       
       失败用户: {{fail_post_ids.DATA}}
     `
-  },
     }
     // 你可以不断按格式往下增加
     // ...
