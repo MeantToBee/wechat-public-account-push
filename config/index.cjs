@@ -47,13 +47,13 @@ const USER_CONFIG = {
     oneTalk: true,
     
     // 土味情话(彩虹屁), 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
-    earthyLoveWords: true,
+    earthyLoveWords: false,
     
     // 朋友圈文案, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
-    momentCopyrighting: true,
+    momentCopyrighting: false,
     
     // 毒鸡汤, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
-    poisonChickenSoup: true,
+    poisonChickenSoup: false,
     
     // 古诗古文, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
     poetry: true,
@@ -68,7 +68,7 @@ const USER_CONFIG = {
   
     /** 学生课表 */
     // 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
-    courseSchedule: true,
+    courseSchedule: false,
   },
   
   TIAN_API: {
@@ -80,7 +80,7 @@ const USER_CONFIG = {
     morningGreeting: true,
   
     // 晚安心语, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
-    eveningGreeting: true,
+    eveningGreeting: false,
   
     // 天行天气（展示未来N天，最多7天）, 填 0 则不使用，按需关闭不使用的功能可以提高运行速度
     weather: 3,
@@ -276,6 +276,21 @@ const USER_CONFIG = {
       // 使用微信测试号：自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       // 使用其他通道时，请严格按照各个通道的教程进行填写
       id: 'ofw5z6Fo_10mTKoesOb2247U1d30',
+      title: '推送完成提醒',
+      desc: `
+      服务器信息：{{post_time_zone.DATA}} {{post_time.DATA}}
+      
+      ---
+      
+      共推送 {{need_post_num.DATA}} 人
+      
+      成功: {{success_post_num.DATA}} | 失败: {{fail_post_num.DATA}}
+      
+      成功用户: {{success_post_ids.DATA}}
+      
+      失败用户: {{fail_post_ids.DATA}}
+    `
+  },
     }
     // 你可以不断按格式往下增加
     // ...
@@ -297,9 +312,9 @@ const USER_CONFIG = {
    * */
   
   // 默认所在省份, USERS 中没填的话, 会默认拿这里的省份
-  PROVINCE: '咸阳',
+  PROVINCE: '湖北',
   // 默认所在城市, USERS 中没填的话, 会默认拿这里的城市
-  CITY: '长武',
+  CITY: '武汉',
 
   /** 重要节日相关 */
 
