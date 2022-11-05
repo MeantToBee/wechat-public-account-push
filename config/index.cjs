@@ -155,79 +155,19 @@ const USER_CONFIG = {
       // 如果courseSchedule不存在或者为空（null）则认为没有课程
       // 如果courseSchedule是一个数组，则认为不区分单双周，直接填写星期几对应的课表数据即可
       // 如果courseSchedule是一个对象（如下面所示）
-      courseSchedule: {
-        // 单双周的基准
-        benchmark: {
-          // 这里设置一个日期，用来作为判断课表是否单双周的依据
-          date: '2022-09-23',
-          // 该日期是否为单周
-          isOdd: true
-        },
-        // 课表
-        courses: {
-          // 单周课表
-          // 从星期一到星期日（星期六和星期日的课表数组可不填写）
-          odd: [
-            // 例子，周一的课表
-            [
-              '08:00-09:35 高等数学',
-              '09:50-11:25 高等物理'
-            ],
-            // 周二
-            [
-              '08:00-09:35 高等数学',
-              '09:50-11:25 高等物理'
-            ],
-            // 周三
-            [
-              '08:00-09:35 高等数学',
-              '09:50-11:25 高等物理'
-            ],
-            // 周四
-            [
-              '08:00-09:35 高等数学',
-              '09:50-11:25 高等物理'
-            ],
-            // 周五
-            [
-              '08:00-09:35 高等数学',
-              '09:50-11:25 高等物理'
-            ],
-            // 周六
-            [
-              '08:00-09:35 高等数学',
-              '09:50-11:25 高等物理'
-            ],
-            // 周日
-            [
-              '08:00-09:35 高等数学',
-              '09:50-11:25 高等物理'
-            ]
-          ],
-          // 双周课表
-          even: [
-            [],
-            [],
-            [],
-            [],
-            [],
-            [],
-            []
-          ]
-        }
-      },
     },
     {
       name: '小明',
       id: 'ofw5z6H-P28kcKd4J00rmVe2PJdY',
-      useTemplateId: '	28ta0sDecsqrBMqZZNRrlLKkgh3ktJRMeBYM-6INVco',
+      useTemplateId: '28ta0sDecsqrBMqZZNRrlLKkgh3ktJRMeBYM-6INVco',
       province: '湖北',
       city: '武汉',
       horoscopeDate: '5-5',
       horoscopeDateType: '今日',
       openUrl: 'https://wangxinleo.cn',
       festivals: [],
-      customizedDateList: [],
+      customizedDateList: [
+      ],
       courseSchedule: null
     },
     
