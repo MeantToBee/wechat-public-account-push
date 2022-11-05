@@ -222,7 +222,7 @@ const USER_CONFIG = {
       id: 'ofw5z6H-P28kcKd4J00rmVe2PJdY',
       useTemplateId: '	28ta0sDecsqrBMqZZNRrlLKkgh3ktJRMeBYM-6INVco',
       province: '湖北',
-      city: '十堰',
+      city: '武汉',
       horoscopeDate: '5-5',
       horoscopeDateType: '今日',
       openUrl: 'https://wangxinleo.cn',
