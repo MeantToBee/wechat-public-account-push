@@ -114,7 +114,7 @@ const USER_CONFIG = {
       id: 'ofw5z6Fo_10mTKoesOb2247U1d30',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       // 使用其他通道时，请填写 config/template-config.cjs 中某个想要使用的模板的id
-      useTemplateId: '	3exM4Gucl9eoviZBxHEyu7yANtE194QJCgX31FjLP18',
+      useTemplateId: '3exM4Gucl9eoviZBxHEyu7yANtE194QJCgX31FjLP18',
       // 所在省份或城市，也可以不填
       province: '湖北',
       // 所在城市或县区
@@ -129,7 +129,7 @@ const USER_CONFIG = {
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
-          type: '*生日', name: '九九', year: '1996', date: '10-17',
+          type: '*生日', name: '九九', year: '1996', date: '10-18',
         },
 //         {
 //           type: '节日', name: '结婚纪念日', year: '2020', date: '09-03',
