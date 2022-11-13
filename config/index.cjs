@@ -111,7 +111,7 @@ const USER_CONFIG = {
       name: '九九',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       // 使用其他通道时，请严格按照各个通道的教程进行填写
-      id: 'ofw5z6Fo_10mTKoesOb2247U1d30',
+      id: 'ofw5z6Gt4a_Z0RgCsEa8V8BbcfPc',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       // 使用其他通道时，请填写 config/template-config.cjs 中某个想要使用的模板的id
       useTemplateId: 'WkFSo9AsZwkJVFdpIj3K-0FV81Z6d6mO6OCSmu_NBOY',
@@ -205,15 +205,6 @@ const USER_CONFIG = {
       
       失败用户: {{fail_post_ids.DATA}}
       
-      {{date.DATA}}
-城市：{{city.DATA}}        今日天气：{{tian_api_weather_weather_0.DATA}} {{tian_api_weather_lowest_0.DATA}} ~ {{tian_api_weather_highest_0.DATA}} 
-{{notice.DATA}}
-{{tian_api_weather_tips_0.DATA}}
-今天是我们相识的第{{love_day.DATA}}天 
-{{birthday_message.DATA}} 
-{{tian_api_morning_greeting.DATA}} 
-{{note_ch.DATA}}
-{{note_en.DATA}}
     `
     }
     // 你可以不断按格式往下增加
