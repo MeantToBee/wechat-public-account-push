@@ -173,7 +173,7 @@ const USER_CONFIG = {
 //       customizedDateList: [
 //       ],
 //       courseSchedule: null
-//     },
+    },
     
     // 你可以不断按格式往下增加
     // ...
