@@ -157,7 +157,7 @@ const USER_CONFIG = {
       // 如果courseSchedule是一个对象（如下面所示）
     },
     {
-      name: '小明',
+      name: '榕榕',
       id: 'ofw5z6NxoDDz4hRYcsgOl5uFyIlU',
       useTemplateId: 'TBlkVjN8Tq1gCzj8oZKduYpSAUGqNZjVF6aVLti5guk',
       province: '贵州',
