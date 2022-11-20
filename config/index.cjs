@@ -111,7 +111,7 @@ const USER_CONFIG = {
       name: '九九',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       // 使用其他通道时，请严格按照各个通道的教程进行填写
-      id: 'ofw5z6Gt4a_Z0RgCsEa8V8BbcfPc',
+      id: '',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       // 使用其他通道时，请填写 config/template-config.cjs 中某个想要使用的模板的id
       useTemplateId: 'WkFSo9AsZwkJVFdpIj3K-0FV81Z6d6mO6OCSmu_NBOY',
@@ -156,16 +156,20 @@ const USER_CONFIG = {
       // 如果courseSchedule是一个数组，则认为不区分单双周，直接填写星期几对应的课表数据即可
       // 如果courseSchedule是一个对象（如下面所示）
     },
-//     {
-//       name: '小明',
-//       id: 'ofw5z6H-P28kcKd4J00rmVe2PJdY',
-//       useTemplateId: '28ta0sDecsqrBMqZZNRrlLKkgh3ktJRMeBYM-6INVco',
-//       province: '湖北',
-//       city: '武汉',
-//       horoscopeDate: '5-5',
-//       horoscopeDateType: '今日',
-//       openUrl: 'https://wangxinleo.cn',
-//       festivals: [],
+    {
+      name: '小明',
+      id: 'ofw5z6NxoDDz4hRYcsgOl5uFyIlU',
+      useTemplateId: 'TBlkVjN8Tq1gCzj8oZKduYpSAUGqNZjVF6aVLti5guk',
+      province: '贵州',
+      city: '贵阳',
+      horoscopeDate: '4-6',
+      horoscopeDateType: '今日',
+      openUrl: 'https://wangxinleo.cn',
+      festivals: [
+  {
+          type: '*生日', name: '榕榕', year: '2003', date: '3-5',
+        },
+  ],
 //       customizedDateList: [
 //       ],
 //       courseSchedule: null
